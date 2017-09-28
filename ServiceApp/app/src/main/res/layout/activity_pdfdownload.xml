@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pdfdownload"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assignments.sjsu.poojashah.serviceapp.PDFDownload"
+    android:background="#1e5162">
+
+    <ImageView
+        android:layout_width="50dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView2"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="PDF Download Activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:id="@+id/textView3"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:text="Provide the list of 5 PDF files"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:layout_marginLeft="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="PDF1 file location : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText6"
+                android:background="@android:color/background_light"
+                android:layout_marginTop="10dp"
+                android:text="http://www.cisco.com/c/dam/en_us/about/annual-report/2016-annual-report-full.pdf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="PDF2 file location : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:layout_below="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_alignTop="@+id/textView6"
+                android:layout_alignStart="@+id/editText"
+                android:id="@+id/editText2"
+                android:background="@android:color/background_light"
+                android:layout_width="197dp"
+                android:layout_marginTop="10dp"
+                android:text="http://www.cisco.com/web/about/ac79/docs/innov/IoE_Economy.pdf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="PDF3 file location : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:layout_centerVertical="true"
+                android:layout_alignStart="@+id/textView6"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText3"
+                android:background="@android:color/background_light"
+                android:layout_alignBaseline="@+id/textView7"
+                android:layout_alignBottom="@+id/textView7"
+                android:layout_alignStart="@+id/editText2"
+                android:layout_marginTop="10dp"
+                android:layout_width="197dp"
+                android:text="http://www.cisco.com/web/strategy/docs/gov/everything-for-cities.pdf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="PDF4 file location : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light"
+                android:id="@+id/textView8"
+                android:layout_alignBaseline="@+id/editText4"
+                android:layout_alignBottom="@+id/editText4"
+                android:layout_alignStart="@+id/textView7"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_below="@+id/editText3"
+                android:layout_alignStart="@+id/editText3"
+                android:layout_marginTop="10dp"
+                android:id="@+id/editText4"
+                android:background="@android:color/background_light"
+                android:layout_width="197dp"
+                android:text="http://www.cisco.com/web/offer/gist_ty2_asset/Cisco_2014_ASR.pdf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="PDF5 file location : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light"
+                android:id="@+id/textView9"
+                android:layout_alignBaseline="@+id/editText5"
+                android:layout_alignBottom="@+id/editText5"
+                android:layout_alignStart="@+id/textView8"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:id="@+id/editText5"
+                android:background="@android:color/background_light"
+                android:layout_below="@+id/editText4"
+                android:layout_alignParentEnd="true"
+                android:layout_alignStart="@+id/editText4"
+                android:layout_width="197dp"
+                android:text="http://www.cisco.com/web/offer/emear/38586/images/Presentations/P3.pdf" />
+        </LinearLayout>
+
+        <Button
+            android:text="Start Download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="downloadPDFs"
+            android:layout_marginLeft="100dp"
+            android:padding="15dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/status"
+                android:padding="10dp"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light"
+                android:textColorHighlight="@android:color/background_light"
+                android:textColorHint="@android:color/darker_gray" />
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

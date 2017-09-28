@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IoTAutomate</string>
+    <string name="FanOn">FAN ON</string>
+    <string name="SprinklerOn">Sprinkler ON</string>
+    <string name="FanOff">FAN OFF</string>
+    <string name="SprinklerOff">Sprinkler OFF</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_f0447afacf34e2f241f14d7cd29c830b94530db3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_067e96bbdf6057af71d684da53c7937116f563da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_fa73a031c396cb5af2d9ce0d7165e51509d00ee7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_8ad15edd11ddbfd2cecca7b27b31af4fbe94dd49/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0da98bcf3ae5a190c7622d2bd4f59c2e8f429f62">
+        <dex dex="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b8deec85de18b9aa6f4b99326e44291c3e86d499/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_396db3afe96a7307e89e9867119b3b11b50b066a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/poojashah/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_bf6f6a44bc23eb5ed6297fc9dde038888e90dbe4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_3bc54db489fcea271ed9f27508736c376bb772bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0311c45a0258788c57edc9738fa7dd50f7b3a092">
+        <dex dex="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_861bc155818a530d8d854182bad984faa74bbf21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_fff9c44ce5d1ff67a49b6674a0626777dec79bf7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_6601f07948ff73c4a830ce0022d2916676558b43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/poojashah/Documents/sjsu/Spring17/CmpE277/Chandra/assignments/ass3/FarmIoT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_654b67564c2c0362e90b0e2fa003a89855612196/classes.dex" />
+    </item>
+
+</items>

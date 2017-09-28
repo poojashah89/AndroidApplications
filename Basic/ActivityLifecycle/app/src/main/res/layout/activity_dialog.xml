@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dialog"
+    android:layout_width="350dp"
+    android:layout_height="250dp"
+    android:paddingBottom="50dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assignments.sjsu.poojashah.activitylifecycle.Dialog">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Simple Dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textColor="@android:color/background_light"
+            android:textStyle="normal|bold"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:paddingTop="25dp"/>
+
+        <Button
+            android:text="Close"
+            android:layout_width="155dp"
+            android:layout_height="70dp"
+            android:id="@+id/button"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:onClick="finishDialog" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FarmManager</string>
+    <string name="FanOff">Fan Off</string>
+    <string name="FanOn">Fan On</string>
+    <string name="SprinklerOn">Sprinkler On</string>
+    <string name="SprinklerOff">Sprinkler Off</string>
+    <string name="FanSprinklerOn">Fan and Sprinkler On</string>
+    <string name="FanSprinklerOff">Fan and Sprinkler Off</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assignments.sjsu.poojashah.farmmanager.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Farm Manager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Manager"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_weight="0.15"
+            android:textColor="@android:color/black"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:text="Temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tempData"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="24sp" />
+
+            <TextView
+                android:text="Temperature and Humidity"
+                android:layout_width="119dp"
+                android:layout_height="115dp"
+                android:id="@+id/temphumidity"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:layout_weight="4.77" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="92dp">
+
+            <Button
+                android:text="Fan Status ?"
+                android:layout_height="wrap_content"
+                android:id="@+id/fan"
+                android:layout_weight="0.11"
+                android:background="@android:color/holo_orange_dark"
+                android:layout_width="100dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="normal|bold"
+                android:onClick="turnFan" />
+
+            <Button
+                android:text="Fan and Sprinkler Status ?"
+                android:layout_height="wrap_content"
+                android:id="@+id/fansprinkler"
+                android:background="@android:color/holo_orange_dark"
+                android:layout_width="166dp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:onClick="turnFanSprinkler"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.03" />
+        </LinearLayout>
+
+        <Button
+            android:text="Close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button6"
+            android:onClick="closeApp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

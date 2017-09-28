@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="assignments.sjsu.poojashah.thsensordriver">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TH Driver"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name="assignments.sjsu.poojashah.drivers.MyApplication">
+        <activity android:name="assignments.sjsu.poojashah.MainActivity"
+            android:label="TH Driver">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
